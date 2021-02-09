@@ -10,4 +10,5 @@ $table	 = "users";		//the problematic table
 $column  = "password";	//the passwords we're hashing
 $primary = "id";		//the primary key for this table
 
+$alg = PASSWORD_DEFAULT; //for the password_hash function; you're probably good to leave it be
 ?>
