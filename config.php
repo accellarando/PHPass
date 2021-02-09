@@ -4,7 +4,10 @@
 $host	  = "localhost";	//hostname or IP address for MySQL server
 $user	  = "root";			//MySQL account username
 $password = "secret";		//MySQL account password
-$table	  = "insecure";		//the table we're fixing
+$db		  = "insecure";		//the database we're fixing
 
+$table	 = "users";		//the problematic table
+$column  = "password";	//the passwords we're hashing
+$primary = "id";		//the primary key for this table
 
 ?>
